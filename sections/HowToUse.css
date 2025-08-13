@@ -14,6 +14,14 @@ a.imagelineup{
     margin: 0;
 }
 
+.donthover{
+    pointer-events: none;
+}
+
+.rightsidedec{
+    pointer-events: none;
+}
+
 .header{
     display: flex;
     align-items: center;

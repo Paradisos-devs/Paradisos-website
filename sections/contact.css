@@ -14,6 +14,10 @@ a.imagelineup{
     margin: 0;
 }
 
+.donthover{
+    pointer-events: none;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -114,6 +118,10 @@ a.imagelineup{
 .textboxes form textarea{
     width: 36em;
     height: 15em;
+}
+
+.rightsidedec{
+    pointer-events: none;
 }
 
 button[type="submit"]{

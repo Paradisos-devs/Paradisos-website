@@ -7,6 +7,14 @@
 
 }
 
+.rightsidedec{
+    pointer-events: none;
+}
+
+.donthover{
+    pointer-events: none;
+}
+
 a.imagelineup{
     display: inline-block;
     border: 0;

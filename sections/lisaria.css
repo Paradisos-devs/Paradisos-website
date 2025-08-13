@@ -7,11 +7,19 @@
 
 }
 
+.rightsidedec{
+    pointer-events: none;
+}
+
 a.imagelineup{
     display: inline-block;
     border: 0;
     padding: 0;
     margin: 0;
+}
+
+.donthover{
+    pointer-events: none;
 }
 
 .header{
@@ -90,4 +98,63 @@ a.imagelineup{
     justify-content: start;
     gap: 1em;
     margin-left: 1em;
+}
+
+.divline{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.1em;
+    margin-left: 1em;
+}
+
+.line{
+   background-color: black;
+   height: 0.01em;
+   width: 60em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.takshul li{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    line-height: 3em;
+    background-repeat: no-repeat;
+    background-size: 15em 3em;
+    background-position: center;
+    list-style: none;
+    background-image: url(../yellowglow.png);
+    background-repeat: no-repeat;
+    margin: 2em;
+}
+
+.takshul li a{
+    font-size: 3em;
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    margin-bottom: 0.2em;
+    
+}
+
+.takshul li a:hover{
+    text-decoration: underline;
+}
+
+.takshtext{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3em;
+    margin-bottom: 0;
+    font-family: cursive;
+    font-size: larger;
 }
