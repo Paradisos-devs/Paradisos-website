@@ -33,7 +33,6 @@ a.imagelineup{
     height: 08em;
     background-color: whitesmoke;
     box-shadow:  0em 0.1em 10px 1px rgb(0, 0, 0, 0.5);
-    z-index: 1000;
 }
 
 .body{
@@ -56,6 +55,9 @@ a.imagelineup{
     
 }
 
+.rightsidedec{
+    pointer-events: none;
+}
 
 .nav li{
     line-height: 3em;
@@ -63,7 +65,7 @@ a.imagelineup{
     padding-right: 2em;
     background-image: url(yellowglow.png);
     background-repeat: no-repeat;
-    background-size: 6em 3em;
+    background-size: 5em 3em;
     background-position: center;
 }
 
