@@ -1,0 +1,163 @@
+.rightsidedec{
+    display: flex;
+    justify-items: end;
+    margin: 0;
+    padding: 0;
+    height: 8em;
+
+}
+
+.rightsidedec{
+    pointer-events: none;
+}
+
+a.imagelineup{
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.donthover{
+    pointer-events: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 08em;
+    background-color: whitesmoke;
+    box-shadow:  0em 0.1em 10px 1px rgb(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.body{
+    padding-top: 7em;
+    background-color: hsl(54, 100%, 94%);
+}
+
+.logo img{
+    height: 8em;
+    width: 8em;
+    margin-right: 1.9em;
+    margin-left: 1em;
+}
+
+.navnotlist{
+    flex-grow: 1;
+    display: flex;
+    gap: 5em;
+    justify-content: start;
+    
+}
+
+
+.nav li{
+    line-height: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-image: url(../../../yellowglow.png);
+    background-repeat: no-repeat;
+    background-size: 6em 3em;
+    background-position: center;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    gap: 8em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.title{
+    padding-top: 1em;
+    font-size: smaller;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+    margin-left: 1em;
+}
+
+.divline{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.1em;
+    margin-left: 1em;
+}
+
+.line{
+   background-color: black;
+   height: 0.01em;
+   width: 60em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.mathimatext{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2em;
+    margin-bottom: 0;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.takshul li{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    line-height: 3em;
+    background-repeat: no-repeat;
+    background-size: 15em 3em;
+    background-position: center;
+    list-style: none;
+    background-image: url(../../../yellowglow.png);
+    background-repeat: no-repeat;
+    margin: 2em;
+    font-family: cursive;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.takshul li a{
+    font-size: 3em;
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    margin-bottom: 0.2em;
+}
+
+.takshul li a:hover{
+    text-decoration: underline;
+}

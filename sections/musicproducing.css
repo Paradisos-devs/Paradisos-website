@@ -1,0 +1,270 @@
+.rightsidedec{
+    display: flex;
+    justify-items: end;
+    margin: 0;
+    padding: 0;
+    height: 8em;
+
+}
+
+a.imagelineup{
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 08em;
+    background-color: whitesmoke;
+    box-shadow:  0em 0.1em 10px 1px rgb(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.body{
+    padding-top: 7em;
+    background-color: hsl(54, 100%, 94%);
+}
+
+.logo img{
+    height: 8em;
+    width: 8em;
+    margin-right: 1.9em;
+    margin-left: 1em;
+}
+
+.navnotlist{
+    flex-grow: 1;
+    display: flex;
+    gap: 5em;
+    justify-content: start;
+    
+}
+
+
+.nav li{
+    line-height: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-image: url(../yellowglow.png);
+    background-repeat: no-repeat;
+    background-size: 6em 3em;
+    background-position: center;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    gap: 8em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.title{
+    padding-top: 1em;
+    font-size: smaller;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+    margin-left: 1em;
+}
+
+.rightsidedec{
+    display: flex;
+    justify-items: end;
+    margin: 0;
+    padding: 0;
+    height: 8em;
+
+}
+
+a.imagelineup{
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 08em;
+    background-color: whitesmoke;
+    box-shadow:  0em 0.1em 10px 1px rgb(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.body{
+    padding-top: 7em;
+    background-color: hsl(54, 100%, 94%);
+}
+
+.logo img{
+    height: 8em;
+    width: 8em;
+    margin-right: 1.9em;
+    margin-left: 1em;
+}
+
+.navnotlist{
+    flex-grow: 1;
+    display: flex;
+    gap: 5em;
+    justify-content: start;
+    
+}
+
+
+.nav li{
+    line-height: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-image: url(../yellowglow.png);
+    background-repeat: no-repeat;
+    background-size: 6em 3em;
+    background-position: center;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    gap: 8em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.rightsidedec{
+    pointer-events: none;
+}
+
+.divline{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.1em;
+    margin-left: 1em;
+}
+
+.line{
+   background-color: black;
+   height: 0.01em;
+   width: 60em;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    height: 18em;
+    width: 10em;
+    padding: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover{
+    box-shadow: 0.3em 0.3em 0.8em rgba(0,0,0,0.3);
+    transform: scale(1.05);
+}
+
+
+.card img{
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    border: 1em;
+    border-color: black;
+}
+
+.card p{
+    margin-top: auto;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+    padding: 0.2em 0.3em;
+    background-color: whitesmoke;
+    margin-top: auto;
+}
+
+.card a:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.container{
+    margin-left: 5em;
+    margin-top: 1em;
+    margin-right: 5em;
+    padding: 5em;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.verifiedbutt{
+    display: flex;
+    flex-direction: column;
+}
+
+.verifiedbutt h6{
+    margin-bottom: 1em;
+}
+
+.verifiedbutt h6 img{
+    width: 1em;
+    height: 1em;
+
+}
+
+.card p{
+    margin-bottom: auto;
+}
